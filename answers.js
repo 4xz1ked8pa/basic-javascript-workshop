@@ -142,8 +142,9 @@ var uniqueElements = function(a,b) {
     }
   }
   return c;
-}
-
-console.log(uniqueElements([1,2],[2,3,4])); // should output: [1,3,4]
+};
 
 // Mini Challange: Write a function that takes an array and a function as arguments. The function should return a new array that maps every element of the input array by passing it through the function you received. You are not allowed to use Array.map for this challenge, otherwise it would be too easy :)
+var mappedArray = function(a, func) {
+
+}
